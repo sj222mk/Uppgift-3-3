@@ -9,24 +9,28 @@
     margin: 0 auto;
 }
 
-#topbar, #topbar
+#topbar
 {
-    width: auto;
+    width: 960px;
+}
+
+#menu
+{
+    width: 960px;
+    height: 320px;
 }
 
 #maincontent
 {
     overflow: auto;
     max-width: 600px;
-    margin: 1px;
     padding: 20px;
     float: left;
 }
 
 #subcontent
 {
-    max-width: 280px;
-    margin: 1px;
+    max-width: 295px;
     padding: 10px;
     float: left;
     border-left: dashed 1px silver;
@@ -34,8 +38,91 @@
 
 #bottomcontent
 {
-    width: 950px;
-    margin: 1px;
-    padding: 2px;
+    width: 100%;
     float: left;
 }
+
+
+/* == Bakgrund ===============================================================*/
+#container 
+{
+    background-color: #51473D; 
+    border: solid silver 1px; 
+}
+
+#menu
+{
+    background: transparent url(pics/coffey.jpg); 
+    width: 100%;
+    
+    background-repeat: no-repeat;
+}
+
+#maincontent, #subcontent, #bottomcontent {background-color: #EAE7D2; }
+
+
+/* == Meny ===================================================================*/
+ 
+ #menu ul
+                    {
+                        border: transparent;
+                        border-right: 0;
+                        margin-left: 20px;
+                        padding-left: 0;
+                        margin-top: 305px;
+                    }
+                
+                #menu  ul a
+                    {
+                        float: left;
+                        display: block;
+                        border-right: 1px solid #51473D;
+                        padding: 10px;
+                        background-color: #797066;
+                        color: #EAE7D2;
+                        text-decoration: none;
+                        text-align: center;
+                    }
+                
+                #menu  li
+                    {
+                        display: inline;
+                        
+                    }
+                
+                /*#menu  li a:visited
+                    {
+                        background-color: #787879;
+                        color: #535354;
+                    }*/
+                
+                    
+                #menu  li a:hover
+                    {
+                        background-color: #9C9084;
+                        color: #EAE7D2;
+                    }
+                
+                #menu li :active 
+                    {
+                        background-color: #EAE7D2;
+                        color: #888076;
+                    }
+               
+
+/* == Type ===================================================================*/
+body
+            {
+                font-family: "Verdana", "Times New Roman",  sans-serif;
+                font-size: 1.1em;
+                color: #888076;
+            }
+#topbar 
+{
+    text-align: right;
+}
+
+
+/* == Sidspecifik layout =====================================================*/
+
+/*#menu a:first-child {display: none; }    -------Funkar ej!*/
