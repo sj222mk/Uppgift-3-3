@@ -1,1 +1,41 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+/* == Layout =================================================================*/
+
+#container
+{
+    overflow: auto;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#topbar, #topbar
+{
+    width: auto;
+}
+
+#maincontent
+{
+    overflow: auto;
+    max-width: 600px;
+    margin: 1px;
+    padding: 20px;
+    float: left;
+}
+
+#subcontent
+{
+    max-width: 280px;
+    margin: 1px;
+    padding: 10px;
+    float: left;
+    border-left: dashed 1px silver;
+}
+
+#bottomcontent
+{
+    width: 950px;
+    margin: 1px;
+    padding: 2px;
+    float: left;
+}
